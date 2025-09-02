@@ -106,7 +106,7 @@ module.exports = {
     "rule-empty-line-before": ["always", { "except": ["first-nested"], "ignore": ["after-comment"] }],
     "at-rule-empty-line-before": ["always", { "except": ["first-nested", "blockless-after-same-name-blockless"], "ignore": ["after-comment"] }],
     "comment-empty-line-before": ["always", { "except": ["first-nested"], "ignore": ["stylelint-commands"] }],
-    "custom-property-empty-line-before": ["always", { "except": ["after-custom-property", "first-nested"] }],
+    "custom-property-empty-line-before": null,
     "declaration-empty-line-before": null,
 
     "declaration-block-single-line-max-declarations": 1,
@@ -267,4 +267,4 @@ module.exports = {
       "animation-duration"
     ]
   }
-};
+}
