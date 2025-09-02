@@ -103,9 +103,9 @@ module.exports = {
     "media-feature-range-notation": "context",
     "selector-pseudo-element-colon-notation": "double",
 
-    "rule-empty-line-before": ["always", { "except": ["first-nested"], "ignore": ["after-comment"] }],
-    "at-rule-empty-line-before": ["always", { "except": ["first-nested", "blockless-after-same-name-blockless"], "ignore": ["after-comment"] }],
-    "comment-empty-line-before": ["always", { "except": ["first-nested"], "ignore": ["stylelint-commands"] }],
+    "rule-empty-line-before": null,
+    "at-rule-empty-line-before": null,
+    "comment-empty-line-before": null,
     "custom-property-empty-line-before": null,
     "declaration-empty-line-before": null,
 
