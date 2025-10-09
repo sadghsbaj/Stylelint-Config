@@ -68,7 +68,7 @@ module.exports = {
     "declaration-property-value-no-unknown": true,
     "media-feature-name-value-no-unknown": true,
     "no-unknown-custom-media": true,
-    "no-unknown-custom-properties": true,
+    "no-unknown-custom-properties": null,
     "at-rule-no-deprecated": true,
     "declaration-property-value-keyword-no-deprecated": true,
     "media-type-no-deprecated": true,
